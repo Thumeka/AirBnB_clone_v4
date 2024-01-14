@@ -1,5 +1,6 @@
 $(document).ready(function () {
   const amenities = {};
+  const HOST = '0.0.0.0';
   $('input[type=checkbox]').change(
     function () {
       if ($(this).is(':checked')) {
